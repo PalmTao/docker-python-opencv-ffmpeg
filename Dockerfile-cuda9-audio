@@ -43,7 +43,7 @@ RUN apt-get -y remove build-essential cmake git pkg-config libatlas-base-dev gfo
     && apt-get clean \
     && rm -rf /opencv /opencv_contrib /var/lib/apt/lists/*
 
-RUN pip install essentia librosa
+RUN pip3 install essentia librosa
 
 # Define default command.
 CMD ["python3"]
