@@ -9,9 +9,11 @@ requests
 psutil
 ipykernel
 jupyter
-pandas
-pony 
-scikit-image 
+pandas 
+pony
+essentia
+librosa
+scikit-image
 xlrd 
 easydict
 moviepy==0.2.2.11
