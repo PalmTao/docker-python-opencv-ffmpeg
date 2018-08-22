@@ -25,10 +25,10 @@ RUN apt-get -y update && apt-get -y install python$PYTHON_VERSION-dev wget unzip
       -D PYTHON_DEFAULT_EXECUTABLE=/usr/bin/python3 \
       -D BUILD_opencv_python3=ON \
       -D BUILD_opencv_python2=OFF \
-#      -D WITH_CUDA=ON \
-#      -D ENABLE_FAST_MATH=1 \
-#      -D CUDA_FAST_MATH=1 \
-#      -D WITH_CUBLAS=1 \
+      -D WITH_CUDA=ON \
+      -D ENABLE_FAST_MATH=1 \
+      -D CUDA_FAST_MATH=1 \
+      -D WITH_CUBLAS=1 \
       -D WITH_IPP=OFF \
       -D WITH_FFMPEG=ON \
       -D WITH_V4L=ON .. \
