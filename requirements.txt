@@ -1,4 +1,5 @@
 tensorflow-gpu==1.7
+keras
 scipy
 scikit-learn
 opencv-python
