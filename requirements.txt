@@ -1,5 +1,5 @@
-tensorflow-gpu==1.9.0
-keras==2.1.3
+tensorflow-gpu==1.13.1
+keras==2.2.4
 scipy
 scikit-learn
 opencv-python
@@ -14,7 +14,7 @@ pandas
 pony
 essentia
 librosa
-scikit-image
+scikit-image=0.13
 xlrd 
 easydict
 moviepy==0.2.2.11
