@@ -1,5 +1,6 @@
 tensorflow-gpu==1.13.1
 keras==2.2.4
+numpy==1.15.4
 scipy
 scikit-learn
 opencv-python
@@ -18,4 +19,4 @@ scikit-image==0.13
 xlrd 
 easydict
 moviepy==0.2.2.11
-six==1.10.0
+six==1.11.0
