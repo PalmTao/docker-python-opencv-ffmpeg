@@ -14,7 +14,7 @@ pandas
 pony
 essentia
 librosa
-scikit-image=0.13
+scikit-image==0.13
 xlrd 
 easydict
 moviepy==0.2.2.11
